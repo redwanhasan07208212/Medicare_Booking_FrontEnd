@@ -1,3 +1,4 @@
+import "./App.css";
 import Layouts from "./layouts/Layouts";
 
 function App() {
