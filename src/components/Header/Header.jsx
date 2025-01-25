@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../../../src/assets/images/logo.png";
+import Logo from "../../../src/assets/images/logo_01-preview.png";
 import userImg from "../../../src/assets/images/avatar-icon.png";
 import { BiMenu } from "react-icons/bi";
 import { useEffect, useRef } from "react";
@@ -45,11 +45,11 @@ function Header() {
   const toggleMenu = () => menuRef.current.classList.toggle("show__menu");
   return (
     <header className="header flex items-center" ref={headerRef}>
-      <div className="container">
+      <div className="container mx-auto">
         <div className="flex items-center justify-between">
           {/* === logo === */}
           <NavLink to="/">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="" className="w-[134px]" />
           </NavLink>
 
           {/* === menu === */}
