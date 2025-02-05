@@ -174,6 +174,20 @@ function Home() {
       </section>
 
       <About />
+
+      {/* Service Section start */}
+      <section>
+        <div className="container mx-auto">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">Our Medical Services</h2>
+            <p className="text__para text-center">
+              World Class Care for Everyone. Our Health System Offers unmatched
+              expert health Care
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* Service Section End */}
     </>
   );
 }
