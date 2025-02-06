@@ -1,11 +1,11 @@
-import doctorImg01 from "../images/doctor-img01.png";
-import doctorImg02 from "../images/doctor-img02.png";
-import doctorImg03 from "../images/doctor-img03.png";
+import doctorImg01 from "../images/doctor-img01.webp";
+import doctorImg02 from "../images/doctor-img02.webp";
+import doctorImg03 from "../images/doctor-img03.webp";
 
 export const doctors = [
   {
     id: "01",
-    name: "Dr. Ayesha Rahman",
+    name: "Dr. Imran Hossain",
     specialty: "Cardiologist",
     avgRating: 4.9,
     totalRating: 315,
@@ -15,7 +15,7 @@ export const doctors = [
   },
   {
     id: "02",
-    name: "Dr. Imran Hossain",
+    name: "Dr. Ayesha Rahman",
     specialty: "Orthopedic Surgeon",
     avgRating: 4.7,
     totalRating: 298,

@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 @layer base {
   section {
     @apply py-[70px];
@@ -29,9 +36,6 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  /* .container {
-    @apply max-w-full;
-  } */
   section {
     @apply py-[35px];
   }
